@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Red+Hat+Display:wght@500;&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(32, 77, 92);
+
+
+}
+
+body {
+
+    background-color: rgb(235, 244, 247);
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+}
+
+li,
+a,
+button {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 130px;
+
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 14px;
+
+}
+
+
+
+.nav__links li a:hover {
+    color: #984028;
+}
+
+.navbar {
+    padding: 9px 25px;
+    background-color: rgba(206, 234, 241, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    margin-left: 140px;
+}
+
+.navbar:hover {
+    background-color: rgba(66, 106, 116, 0.5);
+}
+
+img {
+    width: 132px;
+    margin: 1.5rem;
+    border-radius: 9px;
+    border: none;
+    margin-left: 4rem;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    align-items: center;
+}
+
+.pre__h1 {
+    margin: 0.8rem;
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 1.6rem;
+
+}
+
+h1 {
+    margin: 0.8rem;
+    font-size: 20px;
+    margin-left: 1.6rem;
+}
+
+.intro {
+    background-color: rgb(206, 234, 241);
+    text-align: left;
+    width: 315px;
+    margin: 0.8rem;
+    border-radius: 9px;
+    padding: 18.6px;
+    font-size: 14px;
+
+}
+
+
+.hero-btn {
+    margin: auto;
+    padding: 9px 25px;
+    background-color: rgba(206, 234, 241, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+
+.hero-btn:hover {
+    background-color: rgba(66, 106, 116, 0.5);
+}
+
+.bottom {
+    text-align: center;
+
+}
